@@ -33,6 +33,10 @@ class DisallowFloatAssignedToVariableRuleTest extends RuleTestCase
 				'Cannot assign float to $this->bar[\'test\'] - floats are not allowed.',
 				22,
 			],
+			[
+				'Cannot assign float to $test - floats are not allowed.',
+				31,
+			],
 		]);
 	}
 
