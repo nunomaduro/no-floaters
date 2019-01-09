@@ -28,7 +28,7 @@ final class DisallowFloatInMethodSignatureRule implements Rule
     }
 
     /**
-     * @param Node $node
+     * @param ClassMethod $node
      * @param Scope $scope
      *
      * @return string[]
